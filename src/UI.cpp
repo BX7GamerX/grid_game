@@ -9,6 +9,7 @@ namespace UI {
     }
 
     bool isButtonClicked(const sf::RectangleShape& shape, int mouseX, int mouseY) {
-        return shape.getGlobalBounds().contains(static_cast<float>(mouseX), static_cast<float>(mouseY));
+        return shape.getGlobalBounds().contains(static_cast<float>(mouseX),
+                                                static_cast<float>(mouseY));
     }
 }
