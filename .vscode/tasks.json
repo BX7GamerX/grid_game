@@ -9,6 +9,7 @@
                 "-g",
                 "${workspaceFolder}/src/main.cpp",
                 "${workspaceFolder}/src/text.cpp",
+                "${workspaceFolder}/src/interface.cpp",
                 "-std=c++20",
                 "-I",
                 "${workspaceFolder}/include",
@@ -16,7 +17,8 @@
                 "${workspaceFolder}/bin/main",
                 "-lsfml-graphics",
                 "-lsfml-window",
-                "-lsfml-system"
+                "-lsfml-system",
+                "-lsfml-audio"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
